@@ -1,0 +1,26 @@
+[
+  {
+    "name"              : "lisk-network-reporter",
+    "script"            : "app.js",
+    "log_date_format"   : "YYYY-MM-DD HH:mm Z",
+    "merge_logs"        : false,
+    "watch"             : false,
+    "max_restarts"      : 10,
+    "exec_interpreter"  : "node",
+    "exec_mode"         : "fork_mode",
+    "env":
+    {
+      "NODE_ENV"        : "production",
+      "RPC_HOST"        : "localhost",
+      "RPC_PORT"        : "8000",
+      "LISTENING_PORT"  : "8000",
+      "INSTANCE_NAME"   : "PICK_INSTANCE_NAME",
+      "CONTACT_DETAILS" : "",
+      "NETWORK_MODE"    : "main",
+      "WS_SERVER"       : "ws://liskstats.net",
+      "WS_SECRET"       : "GO TO https://lisk.chat and ask around, should be somewhere in channel stats/statistics",
+      "IS_FORGING"      : "no",
+      "VERBOSITY"       : 2
+    }
+  }
+]
