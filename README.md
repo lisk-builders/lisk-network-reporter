@@ -62,6 +62,8 @@ Stopping
 pm2 stop lisk-network-reporter
 </pre>
 
+## To do
+- [ ] Change peers count to reliable endpoint as soon implemented in Lisk
 
 ## Credits
 Thanks to [cuberdo](https://github.com/cubedro/) and his [eth-net-intelligence-api](https://github.com/cubedro/eth-net-intelligence-api). This software has been created on the top of his work.
