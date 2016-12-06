@@ -49,7 +49,7 @@ And modify
 ## Run
 Starting
 <pre>
-pm2 start app.json
+pm2 start app.json --watch
 </pre>
 
 Checking logs
