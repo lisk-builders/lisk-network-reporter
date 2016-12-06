@@ -17,8 +17,8 @@
       "INSTANCE_NAME"   : "PICK_INSTANCE_NAME",
       "CONTACT_DETAILS" : "",
       "NETWORK_MODE"    : "main",
-      "WS_SERVER"       : "wss://liskstats.net",
-      "WS_SECRET"       : "GO TO https://lisk.chat and ask around, should be somewhere in channel stats/statistics",
+      "WS_SERVER"       : "ws://liskstats.net:3000",
+      "WS_SECRET"       : "Go to https://lisk.chat and ask around",
       "IS_FORGING"      : "no",
       "VERBOSITY"       : 2
     }
