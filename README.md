@@ -37,8 +37,8 @@ And modify
       "INSTANCE_NAME"   : "PICK_INSTANCE_NAME", <- pick your name
       "CONTACT_DETAILS" : "", <- contact details, email or nick on lisk.chat to contact in case any failure
       "NETWORK_MODE"    : "main",
-      "WS_SERVER"       : "wss://liskstats.net",
-      "WS_SECRET"       : "GO TO https://lisk.chat and ask around, should be somewhere in channel stats/statistics",
+      "WS_SERVER"       : "ws://liskstats.net:3000",
+      "WS_SECRET"       : "Go to https://lisk.chat and ask around",
       "IS_FORGING"      : "no", <- Currently there is no simple endpoint to check if any delegate is forging on this node, set "yes" if you are actually forging (in top 101 and actually processing blocks, not standby)
       "VERBOSITY"       : 2
     }
