@@ -66,6 +66,7 @@ pm2 stop lisk-network-reporter
 - [ ] Change peers count to reliable endpoint as soon implemented in Lisk
 - [ ] Change pending tx count to reliable endpoint as soon implemented in Lisk
 - [ ] If there is no build specified in Lisk then last commit should be used as soon implemented in Lisk
+- [ ] Implement reasonable check if node is forging as soon implemented in Lisk to replace preconfigured value in config
 
 ## Credits
 Thanks to [cuberdo](https://github.com/cubedro/) and his [eth-net-intelligence-api](https://github.com/cubedro/eth-net-intelligence-api). This software has been created on the top of his work.
