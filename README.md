@@ -64,6 +64,7 @@ pm2 stop lisk-network-reporter
 
 ## To do
 - [ ] Change peers count to reliable endpoint as soon implemented in Lisk
+- [ ] Change pending tx count to reliable endpoint as soon implemented in Lisk
 - [ ] If there is no build specified in Lisk then last commit should be used as soon implemented in Lisk
 
 ## Credits
