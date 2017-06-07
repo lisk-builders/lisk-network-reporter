@@ -8,10 +8,7 @@ This is the backend service which runs along with Lisk and tracks the network st
 * npm
 
 ## Installation
-<pre>git clone https://github.com/karek314/lisk-network-reporter/
-cd lisk-network-reporter
-bash build.sh
-</pre>
+<pre>git clone https://github.com/karek314/lisk-network-reporter/ && cd lisk-network-reporter && bash build.sh</pre>
 
 ## Configuration
 <pre>nano app.json</pre>
