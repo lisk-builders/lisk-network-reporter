@@ -63,7 +63,7 @@ pm2 stop lisk-network-reporter
 You can run this container via docker by executing:
 
 ```
-docker run -d -e LISK_HOST='localhost' -e LISK_PORT='8000' -e LISK_ADDRESS='your lisk address' -e LISKSTATS_SECRET="the liskstats secret" docker-lisk-network-reporter
+docker run -d -e LISK_HOST='localhost' -e LISK_PORT='8000' -e LISK_ADDRESS='your lisk address' -e LISKSTATS_SECRET="the liskstats secret" docker-lisk-network-reporter:latest
 ```
 
 Extra unneeded env variables are:
