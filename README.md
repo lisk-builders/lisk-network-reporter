@@ -59,5 +59,16 @@ Stopping
 pm2 stop lisk-network-reporter
 </pre>
 
+## Docker
+You can run this container via docker by executing:
+
+```
+docker run -d -e LISK_HOST='localhost' -e LISK_PORT='8000' -e LISK_ADDRESS='your lisk address' -e LISKSTATS_SECRET="the liskstats secret" docker-lisk-network-reporter
+```
+
+Extra unneeded env variables are:
+LISK_CONTACT - Can be left empty (Contact in case of issues)
+LISK_ISFORGING - Defaults to no
+
 ## Credits
 Thanks to [cuberdo](https://github.com/cubedro/) and his [eth-net-intelligence-api](https://github.com/cubedro/eth-net-intelligence-api). This software has been created on the top of his work.
