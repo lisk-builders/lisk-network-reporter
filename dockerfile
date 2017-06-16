@@ -6,4 +6,3 @@ ADD ./postinstall.sh /
 RUN chmod +x /postinstall.sh
 ENTRYPOINT /postinstall.sh
 WORKDIR /lisk-network-reporter
-RUN npm install
