@@ -1,11 +1,16 @@
 #!/bin/bash
-sed -i -e "s/\"RPC_HOST\"        : \"localhost\"/\"RPC_HOST\"        : \"$LISK_HOST\"/g" app.json
-sed -i -e "s/\"RPC_PORT\"        : \"8000\"/\"RPC_PORT\"        : \"${LISK_PORT:-8000}\"/g" app.json
-sed -i -e "s/\"LISTENING_PORT\"  : \"8000\"/\"LISTENING_PORT\"  : \"${LISK_PORT:-8000}\"/g" app.json
-sed -i -e "s/PICK_INSTANCE_NAME/$LISK_ADDRESS/g" app.json
-sed -i -e "s/\"CONTACT_DETAILS\" : \"\",/\"CONTACT_DETAILS\" : \"$LISK_CONTACT\"/g" app.json
-sed -i -e "s/Go to https:\/\/lisk.chat and ask around/$LISKSTATS_SECRET/g" app.json
-sed -i -e "s/\"IS_FORGING\"      : \"no\"/\"IS_FORGING\"      : \"${LISK_ISFORGING:-no}\"/g" app.json
 git pull
 npm install
+
+NODE_ENV=${NODE_ENV:-'production'} \
+RPC_HOST=${RPC_HOST:-'localhost'} \
+RPC_PORT=${RPC_PORT:-8000} \
+LISTENING_PORT=${LISTENING_PORT:-8000} \
+INSTANCE_NAME=$INSTANCE_NAME \
+CONTACT_DETAILS=$CONTACT_DETAILS \
+NETWORK_MODE=${NETWORK_MODE:-'main'} \
+WS_SERVER='ws://liskstats.net:3000' \
+WS_SECRET=$WS_SECRET \
+IS_FORGING=${IS_FORGING:-'no'} \
+VERBOSITY=${VERBOSITY:-2} \
 node app.js
