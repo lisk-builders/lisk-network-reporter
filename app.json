@@ -19,7 +19,6 @@
       "NETWORK_MODE"    : "main",
       "WS_SERVER"       : "ws://liskstats.net:3000",
       "WS_SECRET"       : "Go to https://lisk.chat and ask around",
-      "IS_FORGING"      : "no",
       "VERBOSITY"       : 0
     }
   }
