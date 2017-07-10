@@ -36,8 +36,7 @@ And modify
       "NETWORK_MODE"    : "main",
       "WS_SERVER"       : "ws://liskstats.net:3000",
       "WS_SECRET"       : "Go to https://lisk.chat and ask around",
-      "IS_FORGING"      : "no", <- Currently there is no simple endpoint to check if any delegate is forging on this node, set "yes" if you are actually forging (in top 101 and actually processing blocks, not standby)
-      "VERBOSITY"       : 2
+      "VERBOSITY"       : 0
     }
   }
 ]
