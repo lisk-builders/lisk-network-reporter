@@ -62,7 +62,7 @@ pm2 stop lisk-network-reporter
 You can run this container via docker by executing:
 
 ```
-docker run -d -e RPC_HOST='your lisk node ip or hostname' -e INSTANCE_NAME='your lisk address' -e WS_SERVER="the liskstats secret" -e CONTACT_DETAILS="your contact details" -v /etc/localtime:/etc/localtime:ro docker-lisk-network-reporter:latest
+docker run -d -e RPC_HOST='your lisk node ip or hostname' -e INSTANCE_NAME='your lisk address' -e WS_SECRET="the liskstats secret" -e CONTACT_DETAILS="your contact details" -v /etc/localtime:/etc/localtime:ro docker-lisk-network-reporter:latest
 ```
 
 Confurable ENV variables:
