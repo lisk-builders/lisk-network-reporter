@@ -17,7 +17,7 @@
       "INSTANCE_NAME"   : "PICK_INSTANCE_NAME",
       "CONTACT_DETAILS" : "",
       "NETWORK_MODE"    : "main",
-      "WS_SERVER"       : "ws://liskstats.net:3000",
+      "WS_SERVER"       : "ws://report.liskstats.net:3000",
       "WS_SECRET"       : "Go to https://lisk.chat and ask around",
       "VERBOSITY"       : 0
     }
