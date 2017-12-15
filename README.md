@@ -34,7 +34,7 @@ And modify
       "INSTANCE_NAME"   : "PICK_INSTANCE_NAME", <- pick your name
       "CONTACT_DETAILS" : "", <- contact details, email or nick on lisk.chat to contact in case any failure
       "NETWORK_MODE"    : "main",
-      "WS_SERVER"       : "ws://liskstats.net:3000",
+      "WS_SERVER"       : "ws://report.liskstats.net:3000",
       "WS_SECRET"       : "Go to https://lisk.chat and ask around",
       "VERBOSITY"       : 0
     }
