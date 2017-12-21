@@ -31,7 +31,7 @@ And modify
       "RPC_HOST"        : "localhost",
       "RPC_PORT"        : "8000", <- 8000 for mainnet, 7000 testnet
       "LISTENING_PORT"  : "8000", <- 8000 for mainnet, 7000 testnet
-      "INSTANCE_NAME"   : "", <- add your lisk address here
+      "INSTANCE_NAME"   : "", <- add your lisk address here or a custom name if you do voluntary work
       "CONTACT_DETAILS" : "", <- contact details, email or nick on lisk.chat to contact in case any failure
       "NETWORK_MODE"    : "main",
       "WS_SERVER"       : "ws://report.liskstats.net:3000",
