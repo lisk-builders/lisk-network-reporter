@@ -114,5 +114,5 @@ VERBOSITY
 ## Credits
 Thanks to [cuberdo](https://github.com/cubedro/) and his [eth-net-intelligence-api](https://github.com/cubedro/eth-net-intelligence-api). This software has been created on the top of his work.
 
-Credits to [5an1ty](https://github.com/5an1ty/) for creating support for Docker.
-Credits to [hirishh](https://github.com/hirishh) for pm2 auto startup guide.
+[5an1ty](https://github.com/5an1ty/) for creating support for Docker.
+[hirishh](https://github.com/hirishh) for pm2 auto startup guide.
