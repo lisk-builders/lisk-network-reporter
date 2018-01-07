@@ -112,6 +112,6 @@ VERBOSITY
 
 
 ## Credits
-1. To [cuberdo](https://github.com/cubedro/) and his [eth-net-intelligence-api](https://github.com/cubedro/eth-net-intelligence-api). This software has been created on the top of his work.
+1. To [cuberdo](https://github.com/cubedro/) and his [eth-net-intelligence-api](https://github.com/cubedro/eth-net-intelligence-api). It's foundation used for lisk-network-reporter.
 2. [5an1ty](https://github.com/5an1ty/) for creating support for Docker.
 3. [hirishh](https://github.com/hirishh) for pm2 auto startup guide.
