@@ -14,12 +14,13 @@
       "RPC_HOST"        : "localhost",
       "RPC_PORT"        : "8000",
       "LISTENING_PORT"  : "8000",
-      "INSTANCE_NAME"   : "PICK_INSTANCE_NAME",
+      "INSTANCE_NAME"   : "BetaNet Tester 1",
       "CONTACT_DETAILS" : "",
       "NETWORK_MODE"    : "main",
-      "WS_SERVER"       : "ws://report.liskstats.net:3000",
-      "WS_SECRET"       : "Go to https://lisk.chat and ask around",
-      "VERBOSITY"       : 0
+      "WS_SERVER"       : "ws://167.99.89.246:3000",
+      "WS_SECRET"       : "test",
+      "FORGING"         : 0,
+      "VERBOSITY"       : 2
     }
   }
 ]
