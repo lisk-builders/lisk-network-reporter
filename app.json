@@ -19,7 +19,7 @@
       "NETWORK_MODE"    : "main",
       "WS_SERVER"       : "ws://167.99.89.246:3000",
       "WS_SECRET"       : "test",
-      "FORGING"         : 0,
+      "FORGING"         : false,
       "VERBOSITY"       : 2
     }
   }

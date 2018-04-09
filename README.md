@@ -39,7 +39,7 @@ And modify
       "NETWORK_MODE"    : "main",
       "WS_SERVER"       : "ws://report.liskstats.net:3000",
       "WS_SECRET"       : "Go to https://lisk.chat and ask around",
-      "FORGING"         : 0, <- set 1 if your node is actively forging
+      "FORGING"         : false, <- set 1 if your node is actively forging
       "VERBOSITY"       : 0
     }
   }
