@@ -2,6 +2,9 @@ Lisk Network Reporter
 ============
 This is the backend service which runs along with Lisk and tracks the network status, fetches information through api and connects through WebSockets to [lisk-network-stats](https://github.com/karek314/lisk-network-stats) to feed information.
 
+<b>Master</b> branch from and after 1.0.0 version of lisk core.<br>
+<b>Legacy</b> branch - before 1.0.0<br>
+
 ## Prerequisite
 * lisk up and running
 * node
@@ -31,11 +34,12 @@ And modify
       "RPC_HOST"        : "localhost",
       "RPC_PORT"        : "8000", <- 8000 for mainnet, 7000 testnet
       "LISTENING_PORT"  : "8000", <- 8000 for mainnet, 7000 testnet
-      "INSTANCE_NAME"   : "PICK_INSTANCE_NAME", <- pick your name
+      "INSTANCE_NAME"   : "", <- add your lisk address here or a custom name if you do voluntary work
       "CONTACT_DETAILS" : "", <- contact details, email or nick on lisk.chat to contact in case any failure
       "NETWORK_MODE"    : "main",
-      "WS_SERVER"       : "ws://liskstats.net:3000",
+      "WS_SERVER"       : "ws://report.liskstats.net:3000",
       "WS_SECRET"       : "Go to https://lisk.chat and ask around",
+      "FORGING"         : "no", <- set yes if your node is actively forging
       "VERBOSITY"       : 0
     }
   }
@@ -112,6 +116,6 @@ VERBOSITY
 
 
 ## Credits
-Thanks to [cuberdo](https://github.com/cubedro/) and his [eth-net-intelligence-api](https://github.com/cubedro/eth-net-intelligence-api). This software has been created on the top of his work.
-
-Credits to [5an1ty](https://github.com/5an1ty/) for creating support for Docker.
+1. To [cuberdo](https://github.com/cubedro/) and his [eth-net-intelligence-api](https://github.com/cubedro/eth-net-intelligence-api). It's foundation used for lisk-network-reporter.
+2. [5an1ty](https://github.com/5an1ty/) for creating support for Docker.
+3. [hirishh](https://github.com/hirishh) for pm2 auto startup guide.
